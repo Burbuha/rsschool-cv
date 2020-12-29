@@ -91,7 +91,7 @@ h2 {
   display: block;
   margin: 10px auto;
 }
-.knolegies {
+.knowledges {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   grid-gap: 5%;
