@@ -1,3 +1,15 @@
+body {
+  line-height: 1;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  font-size: 100%;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -35,7 +47,7 @@ h2 {
   flex-direction: column;
   width: 350px;
   height: 200px;
-  padding: 2%;
+  padding: 1%;
   background: #414654;
   position: relative;
   border-radius: 12px;
@@ -101,4 +113,20 @@ h2 {
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 3%;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  height: 50px;
+  text-align: center;
+}
+.footer-link {
+  margin-left: 20px;
+  color: #222;
+  cursor: pointer;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: rgba(0, 0, 0, 0.5);
 }
